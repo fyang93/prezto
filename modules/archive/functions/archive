@@ -6,7 +6,7 @@
 #   Matt Hamilton <m@tthamilton.com>
 #
 
-# function archive {
+function archive {
 
 local archive_name path_to_archive _gzip_bin _bzip2_bin _xz_bin
 
@@ -70,4 +70,4 @@ case "${archive_name}" in
   (*) print "\nunknown archive type for archive: ${archive_name}" ;;
 esac
 
-# }
+}

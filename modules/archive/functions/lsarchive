@@ -5,7 +5,7 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
-# function lsarchive {
+function lsarchive {
 
 local verbose
 
@@ -58,4 +58,4 @@ while (( $# > 0 )); do
   shift
 done
 
-# }
+}

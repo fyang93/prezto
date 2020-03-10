@@ -5,7 +5,7 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
-# function unarchive {
+function unarchive {
 
 local remove_archive
 local success
@@ -105,4 +105,4 @@ while (( $# > 0 )); do
   shift
 done
 
-# }
+}
